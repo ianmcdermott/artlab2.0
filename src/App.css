@@ -1,0 +1,132 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  margin:0;
+  padding:0;
+  height: 100%;
+}
+
+p, h1, h2, h3, h4, h5, h6, a, div{
+  font-family: 'Muli', sans-serif;
+}
+
+header{
+  text-align: center;
+  padding: 15px;
+  font-size: 50px;
+}
+
+canvas {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+  text-align: center;
+}
+
+main{
+  background-color: #fff;
+  width: 100% !important;
+  margin: 0 auto;
+  position: relative;
+}
+
+footer{
+  clear: both;
+  padding: 15px;
+  text-align: center;
+}
+
+footer a{
+  padding: 10px;
+  font-size: 20px;
+  transition: all .2s ease-in-out;
+
+}
+
+a:visited{
+  text-decoration: none;
+  color: #000;
+}
+
+a:visited{
+  text-decoration: none;
+  color: #000;
+}
+
+form{
+  text-align: center;
+  padding: 15px;
+}
+
+p a:hover{
+  text-decoration: none;
+  color: #000;
+  background-color: #FFCE2E;
+}
+
+footer a:hover{
+  color: #000;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+  background-color: #FFCE2E;
+
+}
+
+a:active, footer a:active{
+  color: #fff;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+  background-color: #000;
+
+}
+
+.alert{
+  background-color: #f00;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 5px;
+  width: 80%;
+  margin: 10px auto;
+}
+
+
+#js-logout{
+  margin: 0 auto;
+  position: relative;
+  display: block;
+  text-align: center;
+}
+
+#js-lastName-submit, .register-input{
+  margin: 10px;
+}
+
+#js-instructions{
+  background-color: #FFCE2E;
+  width: 100%;
+  font-size: 150%;
+  padding: 5px;
+  top: 5px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  line-height: 130%;
+  text-align: center;
+  clear: both;
+}
+
+#js-instructions h2{
+  font-weight: 700;
+}

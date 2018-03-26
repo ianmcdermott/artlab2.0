@@ -1,0 +1,95 @@
+.plack-black-static, .plack-white-static, .plack-white, .plack-black{
+	position: relative;
+	clear: both;
+	text-align: center;
+}
+
+.plack-white, .plack-black{
+	transition: all .2s ease-in-out;
+	display: absolute;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+
+}
+
+.plack-black, .plack-black-static{
+	background-color: #000;
+	color: #fff;	
+	border: 5px solid #FFCE2E;	
+}
+
+.plack-white, .plack-white-static{
+	background-color: #fff;
+	color: #000;	
+	border: 5px solid black;	
+}
+
+.plack-black a{
+	color: #fff;
+}
+
+.plack-white a{
+	color: #000;
+}
+
+.plack-black a, .plack-white a{
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+}
+
+.plack-white:hover a{
+	display: inline-block;
+	color: #fff;
+	height: 100%;
+	width: 100%;
+}
+
+.plack-black:hover a{
+	display: inline-block;
+	color: #000;
+	height: 100%;
+	width: 100%;
+}
+
+.plack-white:hover a, .plack-black:hover a{
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.plack-white:hover{
+	background-color: #FFCE2E;
+	border-color: #fff;
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+.plack-black:active{
+	background-color: #FFCE2E;
+	border-color: #fff;
+}
+
+.plack-black:hover{
+	background-color: #fff;
+	border-color: #000;
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+.plack-white:active{
+	background-color: #fff;
+	border-color: #000;
+}
+
+.plack-black:active a, .plack-white:hover a{
+	color: #fff;
+}
+
+.plack-black:hover a{
+	color: #000;
+}
+
+.plack-white:active a{
+	color: #fff;
+}

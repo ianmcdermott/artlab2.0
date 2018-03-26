@@ -1,0 +1,34 @@
+
+
+.yellow{
+	border: 30px solid #FFCE2E;
+}
+
+.white{
+	border: 30px solid #FFF;
+}
+
+.black-box{
+	border: 30px solid #000;
+}
+
+.yellow, .white, .black-box{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 10px;
+	/*position: relative;*/
+	text-align: center;
+	float: left;
+	display: block;
+	width: 100%;
+	height: 450px;
+}
+
+.square-holder{
+	width: 100%;
+	position: relative;
+	float: left;
+	display: block;	
+	clear: right;
+	padding: 0 !important; 
+}
