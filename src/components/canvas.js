@@ -1,6 +1,10 @@
 //canvas.js
 import React from 'react';
-import './plack.css';
+import './canvas.css';
+import './hex.js';
+import './navigation.js';
+import './artboard.js';
+
 import classNames from 'classnames';
 
 export default class Canvas extends React.Component {
@@ -14,9 +18,9 @@ export default class Canvas extends React.Component {
         return (
             <div className="">
                 <Navigation />
-                <Tools />
+                <Hex type="tools"/>
                 <Artboard />
-                <Colors />
+                <Hex type="colors"/>
             </div>
         );
     }

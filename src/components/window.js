@@ -13,7 +13,7 @@ export default function Window(props){
 				<div className="col-md-6">
 					<div className={classNames({[props.color]: true, [props.boot]: true})}>
 					</div>
-					<Plack color={props.plackColor} boot="col-md-6" offset="col-md-offset-3" text={props.text} link="canvas.html"/>
+					<Plack color={props.plackColor} boot="col-md-6" offset="col-md-offset-3" text={props.text} link="/canvas"/>
 				</div>
 				// </Col>
 			// </Row>
